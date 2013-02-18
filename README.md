@@ -100,6 +100,9 @@ The welcome page will tell you what you need for your installation.
 ##### Yii Framework
 The yii page will help you in setting up CiiMS with the Yii Framework location.
 
+__WINDOWS USERS__:  The installer is going to _seriously_ screw up on this part UNLESS you are use forward slashes '/', and to append a trailing forward slash '/' to the end of the path. 
+If you don't do this, then CiiMS will fail to bootstrap to Yii. [see #18](https://github.com/charlesportwoodii/CiiMS/issues/18). Version 1.3 will correct this.
+
 ##### Requirements Check
 CiiMS will check that all requirements are met for both Yii and it's internal system. Any issue will be flagged with a red error label. All issues must be resolved before submitting.
 
